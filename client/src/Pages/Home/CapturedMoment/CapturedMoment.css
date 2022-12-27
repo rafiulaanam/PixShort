@@ -1,0 +1,22 @@
+.img-overlay{
+    position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-overlay:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   border-radius: 3px;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .hover:hover button{
+    background-color: #EF002D;
+    transition: background-color  0.8s ease-in-out;
+  }
